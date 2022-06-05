@@ -1,0 +1,24 @@
+.main .trusted-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 0 250px;
+}
+
+.main .trusted-section .text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .trusted-section .text-container p {
+  color: var(--primaryColor1);
+}
+
+.main .trusted-section .img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .trusted-section .img-container img {
+  align-self: baseline;
+}

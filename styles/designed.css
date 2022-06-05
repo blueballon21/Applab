@@ -1,0 +1,40 @@
+.main .designed-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 250px;
+}
+
+.main .designed-section .img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main .designed-section .img-container img {
+  width: 598px;
+  height: 547px;
+}
+
+.main .designed-section .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.main .designed-section .text-container p {
+  text-align: left;
+  font-size: 11pt;
+}
+
+.main .designed-section .text-container button {
+  width: 170px;
+  height: 57px;
+  border-radius: 28px;
+  border: none;
+  color: white;
+  background-color: var(--primaryColor3);
+  font-weight: 600;
+  font-size: 16px;
+}

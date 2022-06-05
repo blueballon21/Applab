@@ -1,0 +1,45 @@
+.main .app-section {
+  grid-template-rows: 1fr 1fr;
+  padding: 80px 250px 0 250px;
+}
+
+.main .app-section .text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main .app-section .text-container p {
+  font-size: 11pt;
+  margin-top: 35px;
+}
+
+.main .app-section .img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  margin-top: 100px;
+}
+
+.main .app-section .img-container .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .app-section .img-container .icon img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 30px;
+}
+
+.main .app-section .img-container .icon h2 {
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main .app-section .img-container .icon p {
+  font-size: 11pt;
+  text-align: center;
+}

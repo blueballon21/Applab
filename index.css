@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url(styles/header.css);
+@import url(styles/trusted.css);
+@import url(styles/awesome.css);
+@import url(styles/smart.css);
+@import url(styles/designed.css);
+@import url(styles/choose-app.css);
+@import url(styles/features.css);
+@import url(styles/pricing.css);
+
+:root {
+  --primaryColor1: #252f52;
+  --primaryColor2: #616367;
+  --primaryColor3: #2400f9;
+
+  --secondColor1: #f55768;
+  --secondColor2: #2463ff;
+  --secondColor3: #41975f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--primaryColor1);
+}
+
+h1 {
+  font-size: 36pt;
+  color: var(--primaryColor1);
+  font-weight: 600;
+  line-height: 125%;
+}
+
+h2 {
+  font-size: 20pt;
+  color: var(--primaryColor1);
+  font-weight: 600;
+  line-height: 125%;
+}
+
+p {
+  font-size: 16pt;
+  color: var(--primaryColor2);
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 1fr 300px 1fr 687px 700px 1fr 1fr 1fr;
+}

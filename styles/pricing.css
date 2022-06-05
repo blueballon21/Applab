@@ -1,0 +1,67 @@
+.main .pricing-section {
+}
+
+.main .pricing-section .text-container h1 {
+  text-align: center;
+}
+
+.main .pricing-section .text-container p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 11pt;
+}
+
+.main .pricing-section .plan-container .plan-switch {
+  width: 283px;
+  height: 57px;
+  background: white;
+  border: var(--primaryColor2) solid 1px;
+  appearance: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.main .pricing-section .plan-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.main .pricing-section .plan-container .monthly {
+  position: absolute;
+  left: 44.5%;
+  top: 25%;
+  color: white;
+  pointer-events: none;
+  color: white;
+}
+
+.main .pricing-section .plan-container .annually {
+  position: absolute;
+  right: 44.5%;
+  top: 25%;
+  color: white;
+  pointer-events: none;
+  color: var(--primaryColor2);
+}
+
+.main .pricing-section .plan-container .plan-switch::before {
+  content: "";
+  width: 136px;
+  height: 48px;
+  background-color: var(--primaryColor3);
+  border-radius: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1%;
+  transition: all 0.5s;
+}
+
+.main .pricing-section .plan-container .plan-switch:checked::before {
+  left: 50%;
+  width: 136px;
+}

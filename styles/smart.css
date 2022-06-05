@@ -1,0 +1,57 @@
+.main .smart-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 0 250px;
+}
+
+.main .smart-section .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .smart-section .text-container h1 {
+  text-align: left;
+}
+
+.main .smart-section .text-container span {
+  border: 1px solid var(--primaryColor2);
+  opacity: 0.2;
+  height: 190px;
+}
+
+.main .smart-section .text-container p {
+  text-align: left;
+}
+
+.main .smart-section .icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .smart-section .icon-container .icon img {
+  margin-bottom: 20px;
+}
+
+.main .smart-section .icon-container .icon-1 h2 {
+  color: var(--secondColor1);
+}
+
+.main .smart-section .icon-container .icon-2 h2 {
+  color: var(--secondColor2);
+}
+
+.main .smart-section .icon-container .icon-3 h2 {
+  color: var(--secondColor3);
+}
+
+.main .smart-section .icon-container h2 {
+  font-size: 16pt;
+  margin-bottom: 10px;
+}
+
+.main .smart-section .icon-container p {
+  font-size: 11pt;
+  text-align: left;
+}

@@ -1,0 +1,99 @@
+.main .header-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px 1fr;
+  min-height: calc(100vh - 130px);
+}
+
+.main .header-section .navbar-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 0 200px;
+}
+
+.main .header-section .logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main .header-section .menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+
+.main .header-section .menu-container button {
+  width: 170px;
+  height: 57px;
+  border-radius: 28px;
+  border: none;
+  color: white;
+  background-color: var(--primaryColor3);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.main .header-section .hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding: 0 250px;
+  background-image: url(/asset/header-bg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.main .header-section .hero-container .text-container h1 {
+  font-size: 60px;
+  text-align: left;
+}
+
+.main .header-section .hero-container .text-container p {
+  text-align: left;
+}
+
+.main .header-section .hero-container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main .header-section .hero-container .text-container img {
+  width: 362px;
+  height: 35px;
+}
+
+.main .header-section .hero-container .text-container button {
+  width: 170px;
+  height: 57px;
+  border-radius: 28px;
+  border: none;
+  color: white;
+  background-color: var(--primaryColor3);
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.main .header-section .hero-container .text-container .btn {
+  display: block;
+}
+
+.main .header-section .hero-container .text-container .btn a {
+  color: var(--primaryColor3);
+}
+
+.main .header-section .hero-container .img-container {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* background: chocolate; */
+}
+
+.main .header-section .hero-container .img-container img {
+  transform: translateX(69%);
+}
